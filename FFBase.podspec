@@ -24,10 +24,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FFBase/Classes/FFBase.h'
   
-  s.dependency 'FFUtils'
+#  s.dependency 'FFUtils'
   
   s.subspec 'Nav' do |ss|
       ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
+      ss.dependency 'FFUtils'
   end
   
 end

@@ -1,7 +1,6 @@
 PODS:
   - FFBase (0.1.2):
     - FFBase/Nav (= 0.1.2)
-    - FFUtils
   - FFBase/Nav (0.1.2):
     - FFUtils
   - FFUtils (0.1.5):
@@ -27,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFBase: 4b4c5591b57e4ff442b1ec9016a0969d489da1aa
+  FFBase: 68ea60b2a0168d287cd2634b1834cedca3398b01
   FFUtils: bb931393f38c1ad1aa6ffa89eba715475400f3a8
 
 PODFILE CHECKSUM: 88c576c685ffe5e2cff8432a4970ca728b4a76b1
