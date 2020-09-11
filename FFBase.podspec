@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Nav' do |ss|
       ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
-#      ss.dependency 'FFUtils'
+      ss.dependency 'FFUtils'
   end
   
   # s.resource_bundles = {
