@@ -1,7 +1,7 @@
 PODS:
-  - FFBase (0.1.0):
-    - FFBase/Nav (= 0.1.0)
-  - FFBase/Nav (0.1.0)
+  - FFBase (0.1.1):
+    - FFBase/Nav (= 0.1.1)
+  - FFBase/Nav (0.1.1)
 
 DEPENDENCIES:
   - FFBase (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFBase: 29c317c046e1300eceebcf71ae56066e75a6c0fd
+  FFBase: 42f09acdacf537904a6b31c41381d6e5b3c07102
 
 PODFILE CHECKSUM: 57fa44a28855f4d519c473edd3ebae9790f82ade
 
