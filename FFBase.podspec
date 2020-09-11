@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFBase'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of FFBase.'
 
   s.description      = <<-DESC
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Nav' do |ss|
       ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
-      ss.dependency 'FFUtils'
+      ss.dependency 'FFUtils', '~> 0.1.5'
   end
   
 end

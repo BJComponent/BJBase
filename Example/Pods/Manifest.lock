@@ -1,8 +1,8 @@
 PODS:
-  - FFBase (0.1.2):
-    - FFBase/Nav (= 0.1.2)
-  - FFBase/Nav (0.1.2):
-    - FFUtils
+  - FFBase (0.1.3):
+    - FFBase/Nav (= 0.1.3)
+  - FFBase/Nav (0.1.3):
+    - FFUtils (~> 0.1.5)
   - FFUtils (0.1.5):
     - FFUtils/Category (= 0.1.5)
     - FFUtils/Configs (= 0.1.5)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFBase: 68ea60b2a0168d287cd2634b1834cedca3398b01
+  FFBase: bc1f9a8f3e1ac87dce0f055c8176c6ff0bce63d3
   FFUtils: bb931393f38c1ad1aa6ffa89eba715475400f3a8
 
 PODFILE CHECKSUM: 88c576c685ffe5e2cff8432a4970ca728b4a76b1

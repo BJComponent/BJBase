@@ -1,6 +1,6 @@
 {
   "name": "FFBase",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A short description of FFBase.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BJComponent/FFBase",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BJComponent/FFBase.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,7 +25,7 @@
       "source_files": "FFBase/Classes/Nav/**/*.{h,m}",
       "dependencies": {
         "FFUtils": [
-
+          "~> 0.1.5"
         ]
       }
     }
