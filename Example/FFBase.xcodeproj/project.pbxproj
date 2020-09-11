@@ -347,12 +347,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FFBase_Example/Pods-FFBase_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FFBase/FFBase.framework",
-				"${BUILT_PRODUCTS_DIR}/FFUtils/FFUtils.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFBase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

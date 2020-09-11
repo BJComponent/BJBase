@@ -22,12 +22,7 @@
   "subspecs": [
     {
       "name": "Nav",
-      "source_files": "FFBase/Classes/Nav/**/*.{h,m}",
-      "dependencies": {
-        "FFUtils": [
-
-        ]
-      }
+      "source_files": "FFBase/Classes/Nav/**/*.{h,m}"
     }
   ]
 }
