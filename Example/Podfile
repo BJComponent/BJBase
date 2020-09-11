@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FFBase_Tests' do
+  pod 'FFBase', :path => '../'
+  
+  
+end
