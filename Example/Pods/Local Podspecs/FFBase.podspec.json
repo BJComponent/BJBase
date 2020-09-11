@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of FFBase.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhangwenjun0630@163.com/FFBase",
+  "homepage": "https://github.com/BJComponent/FFBase",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "zhangwenjun0630@163.com": "zhangwenjun@xiaobu121.com"
   },
   "source": {
-    "git": "https://github.com/zhangwenjun0630@163.com/FFBase.git",
+    "git": "https://github.com/BJComponent/FFBase.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "FFBase/Classes/**/*"
+  "source_files": "FFBase/Classes/FFBase.h",
+  "subspecs": [
+    {
+      "name": "Nav",
+      "source_files": "FFBase/Classes/Nav/**/*.{h,m}",
+      "dependencies": {
+        "FFUtils": [
+
+        ]
+      }
+    }
+  ]
 }

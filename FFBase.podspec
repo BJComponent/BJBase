@@ -21,16 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/BJComponent/FFBase/FFBase'
+  s.homepage         = 'https://github.com/BJComponent/FFBase'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangwenjun0630@163.com' => 'zhangwenjun@xiaobu121.com' }
   s.source           = { :git => 'https://github.com/BJComponent/FFBase.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FFBase/Classes/**/*'
+  s.source_files = 'FFBase/Classes/FFBase.h'
+
+  s.subspec 'Nav' do |ss|
+      ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
+      ss.dependency 'FFUtils'
+  end
   
   # s.resource_bundles = {
   #   'FFBase' => ['FFBase/Assets/*.png']

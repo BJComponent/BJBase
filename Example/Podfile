@@ -1,6 +1,17 @@
+source 'https://github.com/BJComponent/BJSpecs.git'
+
 use_frameworks!
-target 'FFBase_Tests' do
+
+platform :ios, '9.0'
+
+target 'FFBase_Example' do
   pod 'FFBase', :path => '../'
   
-  
+  pod 'FFUtils', '~> 0.1.4'
+
+  target 'FFBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

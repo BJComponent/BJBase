@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "FFBase.h"
-#import "FFNavController.h"
 
-FOUNDATION_EXPORT double FFBaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char FFBaseVersionString[];
+FOUNDATION_EXPORT double Pods_FFBase_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FFBase_ExampleVersionString[];
 

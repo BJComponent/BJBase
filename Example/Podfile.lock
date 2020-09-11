@@ -1,16 +1,26 @@
 PODS:
-  - FFBase (0.1.0)
+  - FFBase (0.1.0):
+    - FFBase/Nav (= 0.1.0)
+  - FFBase/Nav (0.1.0):
+    - FFUtils
+  - FFUtils (0.1.4)
 
 DEPENDENCIES:
   - FFBase (from `../`)
+  - FFUtils (~> 0.1.4)
+
+SPEC REPOS:
+  https://github.com/BJComponent/BJSpecs.git:
+    - FFUtils
 
 EXTERNAL SOURCES:
   FFBase:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFBase: b0ac17494e6d105382e24d80d03f39df76887480
+  FFBase: 231c19785e7c69bd0c2108bcd0b1ef217e221ce9
+  FFUtils: a8aab384fa412e33169bce9156f03ef7d9ae60dc
 
-PODFILE CHECKSUM: 099da70bcc4bf5f51d86e5be956b12054336e041
+PODFILE CHECKSUM: 3911e0db92254b1314d2fae0b850258a77db7337
 
 COCOAPODS: 1.7.5
