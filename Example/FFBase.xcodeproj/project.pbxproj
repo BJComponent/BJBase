@@ -27,10 +27,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		743F8FD69A77943373DA5710 /* Pods_FFBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		884FD4DD106D4239BD077DBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		884FD4DD106D4239BD077DBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AAF0A875590F78C9C44A066A /* Pods-FFBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBase_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFBase_Tests/Pods-FFBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3C0623846BDDA5FCF078A92 /* FFBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFBase.podspec; path = ../FFBase.podspec; sourceTree = "<group>"; };
-		F29409C1B00A7EB0E68966EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3C0623846BDDA5FCF078A92 /* FFBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFBase.podspec; path = ../FFBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F29409C1B00A7EB0E68966EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				AAF0A875590F78C9C44A066A /* Pods-FFBase_Tests.debug.xcconfig */,
 				05771A1ED5D5EBC4FAAFA698 /* Pods-FFBase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
