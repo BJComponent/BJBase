@@ -7,6 +7,7 @@
 //
 
 #import "FFNavController.h"
+#import <FFUtils/FFUtils.h>
 
 @implementation FFNavController
 

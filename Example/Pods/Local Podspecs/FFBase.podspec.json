@@ -24,7 +24,6 @@
 
     ]
   },
-  "prefix_header_contents": "#import <FFUtils/FFUtils.h>",
   "subspecs": [
     {
       "name": "Nav",
