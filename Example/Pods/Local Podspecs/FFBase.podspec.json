@@ -19,15 +19,16 @@
     "ios": "9.0"
   },
   "source_files": "FFBase/Classes/FFBase.h",
+  "dependencies": {
+    "FFUtils": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <FFUtils/FFUtils.h>",
   "subspecs": [
     {
       "name": "Nav",
-      "source_files": "FFBase/Classes/Nav/**/*.{h,m}",
-      "dependencies": {
-        "FFUtils": [
-
-        ]
-      }
+      "source_files": "FFBase/Classes/Nav/**/*.{h,m}"
     }
   ]
 }

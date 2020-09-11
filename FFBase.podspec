@@ -31,11 +31,16 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'FFBase/Classes/FFBase.h'
-
+  
   s.subspec 'Nav' do |ss|
       ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
-      ss.dependency 'FFUtils'
   end
+  
+  s.dependency 'FFUtils'
+
+  s.prefix_header_contents = '#import <FFUtils/FFUtils.h>'
+
+
   
   # s.resource_bundles = {
   #   'FFBase' => ['FFBase/Assets/*.png']

@@ -7,7 +7,7 @@ platform :ios, '9.0'
 target 'FFBase_Example' do
   pod 'FFBase', :path => '../'
   
-  pod 'FFUtils', '~> 0.1.4'
+  pod 'FFUtils', '~> 0.1.5'
 
   target 'FFBase_Tests' do
     inherit! :search_paths
