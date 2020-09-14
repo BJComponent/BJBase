@@ -18,10 +18,16 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "FFBase/Classes/**/*.{h,m}",
-  "dependencies": {
-    "FFUtils": [
-      "~> 0.1.5"
-    ]
-  }
+  "source_files": "FFBase/Classes/FFBase.h",
+  "subspecs": [
+    {
+      "name": "Nav",
+      "source_files": "FFBase/Classes/Nav/**/*.{h,m}",
+      "dependencies": {
+        "FFUtils": [
+          "~> 0.1.5"
+        ]
+      }
+    }
+  ]
 }
