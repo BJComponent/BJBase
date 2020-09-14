@@ -22,13 +22,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/BJComponent/FFBase.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FFBase/Classes/FFBase.h'
+  s.source_files = 'FFBase/Classes/**/*.{h,m}'
   
-  s.dependency 'FFUtils'
+  s.dependency 'FFUtils', '~> 0.1.5'
+#  s.public_header_files = "FFUtils/FFUtils.h"
+
   
-  s.subspec 'Nav' do |ss|
-      ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
-      ss.dependency 'FFUtils', '~> 0.1.5'
-  end
+#  s.subspec 'Nav' do |ss|
+#      ss.source_files = 'FFBase/Classes/Nav/**/*.{h,m}'
+#      ss.dependency 'FFUtils', '~> 0.1.5'
+#  end
   
 end
